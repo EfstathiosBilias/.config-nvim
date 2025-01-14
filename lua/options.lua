@@ -22,7 +22,7 @@ vim.opt.incsearch = true
 
 -- Colors are important
 vim.opt.termguicolors = true
-vim.opt.colorcolumn = "80"
+-- vim.opt.colorcolumn = "80"
 
 -- Scrolling
 vim.opt.scrolloff = 8
@@ -31,7 +31,7 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 -- Do you like wraps. Yeah... I don't neither
--- vim.opt.wrap = false
+vim.opt.wrap = false
 
 -- Files
 vim.opt.swapfile = false
